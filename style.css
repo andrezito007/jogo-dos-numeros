@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --verde-musgo: #606c38ff;
+    --verde-fortao: #283618ff;
+    --branco: #fefae0ff;
+    --marrom: #dda15eff;
+    --fonte-primaria: "Protest Guerrilla", sans-serif;
+    --fonte-secundaria: "Raleway", sans-serif;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    color: var(--verde-fortao);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: var(--fonte-primaria);
+    color: var(--verde-musgo);
+    font-size: 6em;
+}
+h3{
+    color: var(--verde-fortao);
+    font-family: var(--fonte-primaria);
+    font-size: 3em;
+}
+.mensagem{
+    font-size: 1.5em;
+    color: var(--verde-fortao);
+    margin-top: 20px;
+}
+.box{
+    border: 10px groove var(--verde-fortao);
+    display: inline-block;
+    font-size: 3em;
+    padding: 10px;
+    margin: 10px;
+}
+
